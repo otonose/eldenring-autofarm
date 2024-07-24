@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "eldenring-autofarm"
+version = "1.0.0"
+description = "Elden Ring rune farming script"
+authors = ["otonose <kanade.otonose@otonosei.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
